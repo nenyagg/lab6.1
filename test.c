@@ -24,7 +24,6 @@
 int main(int argc, char *argv[])
 {
 	PrintMenuOS();
-    	SetPrompt("Input a cmd > ");
    	MenuConfig(2, "version", "SimpleCalculator program v2.5", version);
    	MenuConfig(3, "quit", "Quit from program.", quit);
    	MenuConfig(4, "add", "Two numbers together", add);
