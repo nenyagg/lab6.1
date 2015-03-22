@@ -26,3 +26,6 @@ int sub(int argc, char *argv[]);
 int mul(int argc, char *argv[]);
 int divi(int argc, char *argv[]);
 int mod(int argc, char *argv[]);
+int PrintMenuOS();
+int Time(int argc, char *argv[]);
+int TimeAsm(int argc, char *argv[]);
