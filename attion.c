@@ -22,7 +22,9 @@
 #include <time.h>
 #include "attion.h"
 #include "linkTable.h"
+
 #define FONTSIZE 10
+
 int PrintMenuOS()
 {
     int i, j;
