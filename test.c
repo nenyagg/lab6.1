@@ -23,6 +23,8 @@
 
 int main(int argc, char *argv[])
 {
+	PrintMenuOS();
+    	SetPrompt("Input a cmd > ");
    	MenuConfig(2, "version", "SimpleCalculator program v2.5", version);
    	MenuConfig(3, "quit", "Quit from program.", quit);
    	MenuConfig(4, "add", "Two numbers together", add);
@@ -30,6 +32,8 @@ int main(int argc, char *argv[])
 	MenuConfig(6, "mul", "Multiplying two numbers", mul);
 	MenuConfig(7, "divi", "Divided by the number two", divi);
 	MenuConfig(8, "mod", "Take the remainder of two numbers", mod);
+	MenuConfig(9, "time", "Show system time", Time);
+      	MenuConfig(10, "time-asm", "Show system(asm)", TimeAsm);
 
    	ExecuteMenu();
 
